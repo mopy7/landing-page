@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+}
+
+.header-container {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  /* padding: 40px; */
+  padding-bottom: 66px;
+  gap: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+  color: #E5E7EB;  
+}
+
+.rh-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 50px;
+}
+
+.lh-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 0px 10px 0px 10px;
+}
+
+.lh-container h3 {
+  font-size: 24px;
+  color: #F9FAF8;  
+}
+
+.hero {
+  width: 400px;
+}
+
+.hero-1-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 401px;
+  height: 245.5px;
+}
+
+.hero-1-image img {
+  width: 401px;
+  height: 245.5px;
+}
+
+.hero h1,
+.hero p {
+  margin: 0;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.hero button {
+  background-color: #3882F6;
+  color: white;
+  margin-top: 5px;
+  border-style: none;
+  padding: 5px 18px;
+  border-radius: 8px;
+}
+
+/* .information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.info-content-container {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  text-align: center;
+}
+
+.info {
+  max-width: 200px;
+}
+
+.info img {
+  border: 3px solid #3882F6;
+  border-radius: 5px;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+.info-container h2 {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.quote {
+  padding: 42px;
+  display: flex;
+  flex-direction: column;
+  width: 892px;
+  margin-left: 25px;
+}
+
+.quote-container {
+  background-color: #E5E7EB;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-text {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 300;
+}
+
+.quote-author {
+  align-self: flex-end;
+}
+
+.call-action-container {
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px;
+  border-radius: 8px;
+}
+
+.call-action-text {
+  color: #F9FAF8;
+}
+
+.call-action-button {
+  background-color: #3882F6;
+  border: 1px solid #F9FAF8;
+  border-radius: 5px;
+  padding: 4px 18px;
+}
+
+.footer {
+  background-color: #1F2937;
+  margin: 0;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  color: white;
+  margin-bottom: 0;
+  font-size: small;
+}
